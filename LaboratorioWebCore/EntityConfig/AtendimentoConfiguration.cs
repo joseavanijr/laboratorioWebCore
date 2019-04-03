@@ -11,7 +11,7 @@ namespace LaboratorioWebCore.EntityConfig
         {
             builder.ToTable("Atendimentos");
             builder.HasKey(a => a.AtendimentoId);
-            builder.Property(p => p.AtendimentoId).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            //builder.Property(p => p.AtendimentoId).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
             builder.Property(a => a.Data)
                 .IsRequired();
             builder.Property(a => a.Status)

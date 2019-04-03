@@ -12,15 +12,15 @@ namespace AtendimentoHospitalar.EntityConfig
         {
             builder.ToTable("ExamesDosAtendimentos");
             builder.HasKey(ea => ea.ExamesDoAtendimentoId);
-            builder.Property(p => p.ExamesDoAtendimentoId).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            builder.Property(p => p.ExamesDoAtendimentoId).HasValueGenerator(DatabaseGeneratedOption.Identity);
             builder.Property(ea => ea.Data)
                 .IsRequired();
             builder.Property(ea => ea.Status)
                 .IsRequired()
                 .HasMaxLength(15);
-            builder.HasRequired(ea => ea.Atendimento)
-                .WithMany(a => a.ListExamesDoAtendimentos)
-                .HasForeignKey(ea => ea.AtendimentoId);
+            //builder.HasRequired(ea => ea.Atendimento)
+            //    .WithMany(a => a.ListExamesDoAtendimentos)
+            //    .HasForeignKey(ea => ea.AtendimentoId);
         }
     }
 }

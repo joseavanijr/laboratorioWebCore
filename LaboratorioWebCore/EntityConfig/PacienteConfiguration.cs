@@ -15,13 +15,13 @@ namespace LaboratorioWebCore.EntityConfig
             //HasKey(c => new { c.PacienteId, c.DataNascimento});
             builder.HasKey(p => p.PacienteId);
             //AUTO-INCREMENTO
-            builder.Property(p => p.PacienteId).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            //builder.Property(p => p.PacienteId).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
             builder.Property(p => p.Nome)
                 .HasMaxLength(50);
             builder.Property(p => p.EnumTipoConveniado)
                 .HasColumnName("TipoConveniado")
-                .IsRequired()
-                .HasColumnAnnotation("Index", new IndexAnnotation(new IndexAttribute()));
+                .IsRequired();
+                //.HasColumnAnnotation("Index", new IndexAnnotation(new IndexAttribute()));
             //.HasColumnAnnotation("Index", new IndexAnnotation(new IndexAttribute() { IsUnique = true}));
             builder.Property(c => c.DataNascimento)
                 .IsRequired()

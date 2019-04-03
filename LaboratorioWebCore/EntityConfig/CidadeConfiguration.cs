@@ -10,7 +10,7 @@ namespace LaboratorioWebCore.EntityConfig
         {
             builder.ToTable("Cidades");
             builder.HasKey(c => c.CidadeId);
-            builder.Property(p => p.CidadeId).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            //builder.Property(p => p.CidadeId).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
             builder.Property(c => c.Estado)
                 .IsRequired();
             builder.Property(c => c.Nome)

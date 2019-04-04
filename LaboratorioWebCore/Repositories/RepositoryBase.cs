@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using LaboratorioWebCore.Contexto;
+// using LaboratorioWebCore.Contexto;
 using Microsoft.EntityFrameworkCore;
 
 namespace LaboratorioWebCore.Repositories {
     public class RepositoryBase<TEntity> : IDisposable where TEntity : class {
-        public readonly AtendimentoHospitalarContexto Db = new AtendimentoHospitalarContexto ();
+        // public readonly AtendimentoHospitalarContexto Db = new AtendimentoHospitalarContexto ();
 
         public void Add (TEntity obj) {
 
-            Db.Set<TEntity> ().Add (obj);
-            Db.SaveChanges ();
+            // Db.Set<TEntity> ().Add (obj);
+            // Db.SaveChanges ();
         }
 
         public void Update (TEntity obj) {
-            Db.Entry (obj).State = EntityState.Modified;
-            Db.SaveChanges ();
+            // Db.Entry (obj).State = EntityState.Modified;
+            // Db.SaveChanges ();
 
             //var objBanco = GetById(obj);
             //Db.Entry(objBanco).CurrentValues.SetValues(obj);
@@ -28,29 +28,32 @@ namespace LaboratorioWebCore.Repositories {
         }
 
         public void Remove (TEntity obj) {
-            Db.Set<TEntity> ().Remove (obj);
-            Db.SaveChanges ();
+            // Db.Set<TEntity> ().Remove (obj);
+            // Db.SaveChanges ();
         }
 
         public void Remove (Guid id) {
-            Remove (GetById (id));
+            // Remove (GetById (id));
         }
 
         public TEntity GetById (Guid id) {
-            return Db.Set<TEntity> ().Find (id);
+            // return Db.Set<TEntity> ().Find (id);
+            return null;
         }
 
         public IEnumerable<TEntity> GetAll () {
-            return Db.Set<TEntity> ().ToList ();
+            // return Db.Set<TEntity> ().ToList ();
+            return null;
         }
 
         public IEnumerable<TEntity> GetAllReadOnly () {
-            return Db.Set<TEntity> ().AsNoTracking ();
+            // return Db.Set<TEntity> ().AsNoTracking ();
+            return null;
         }
 
         public void Dispose () {
-            Db.Dispose ();
-            GC.SuppressFinalize (this);
+            // Db.Dispose ();
+            // GC.SuppressFinalize (this);
         }
     }
 }

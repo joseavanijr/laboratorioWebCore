@@ -9,12 +9,14 @@ namespace LaboratorioWebCore.Repositories
     {
         public IEnumerable<Paciente> GetByPlano(Guid planoId)
         {
-            return Db.Pacientes.Where(p => p.PlanoDeSaudeId == planoId);
+            // return Db.Pacientes.Where(p => p.PlanoDeSaudeId == planoId);
+            return null;
         }
 
         public IEnumerable<Paciente> GetByName(string nome)
         {
-            return Db.Pacientes.Where(p => p.Nome.Contains(nome));
+            // return Db.Pacientes.Where(p => p.Nome.Contains(nome));
+            return null;
         }
     }
 }

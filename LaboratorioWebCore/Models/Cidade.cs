@@ -16,33 +16,33 @@ namespace LaboratorioWebCore.Models
         public virtual ICollection<Paciente> ListPacientes { get; set; }
 
 
-        public void Salvar()
-        {
-            CidadeService cSerciveService = new CidadeService();
-            if (CidadeId != new Guid())
-            {
-                cSerciveService.Update(this);
-            }
-            else
-            {
-                cSerciveService.Save(this);
-            }
-        }
-        public void Apagar()
-        {
-            new CidadeService().Delete(this.CidadeId);
-        }
-        public IList<Cidade> Buscar()
-        {
-            return new CidadeService().FindAllReadOnly();
-        }
-        public IList<Cidade> Buscar(Estado estado)
-        {
-            return new CidadeService().FindByEstadoReadOnly(estado);
-        }
-        public Cidade Buscar(Guid id)
-        {
-            return new CidadeService().GetById(id);
-        }
+        // public void Salvar()
+        // {
+        //     CidadeService cSerciveService = new CidadeService();
+        //     if (CidadeId != new Guid())
+        //     {
+        //         cSerciveService.Update(this);
+        //     }
+        //     else
+        //     {
+        //         cSerciveService.Save(this);
+        //     }
+        // }
+        // public void Apagar()
+        // {
+        //     new CidadeService().Delete(this.CidadeId);
+        // }
+        // public IList<Cidade> Buscar()
+        // {
+        //     return new CidadeService().FindAllReadOnly();
+        // }
+        // public IList<Cidade> Buscar(Estado estado)
+        // {
+        //     return new CidadeService().FindByEstadoReadOnly(estado);
+        // }
+        // public Cidade Buscar(Guid id)
+        // {
+        //     return new CidadeService().GetById(id);
+        // }
     }
 }

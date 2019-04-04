@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using LaboratorioWebCore.Contexto;
+// using LaboratorioWebCore.Contexto;
 using LaboratorioWebCore.Models;
 
 namespace LaboratorioWebCore.Repositories

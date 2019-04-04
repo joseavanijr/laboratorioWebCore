@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using LaboratorioWebCore.Models;
 using LaboratorioWebCore.Repositories;
-using LaboratorioWebCore.Repositories.ADO;
+// using LaboratorioWebCore.Repositories.ADO;
 
 namespace LaboratorioWebCore.Services
 {
     public class PacienteService: ServiceBase<Paciente>
     {
-        private readonly PacienteAdoRepository pacienteAdo = new PacienteAdoRepository();
+        // private readonly PacienteAdoRepository pacienteAdo = new PacienteAdoRepository();
         private readonly PacienteRepository pacienteRepository = new PacienteRepository();
 
         public IEnumerable<Paciente> GetByPlano(Guid planoId)

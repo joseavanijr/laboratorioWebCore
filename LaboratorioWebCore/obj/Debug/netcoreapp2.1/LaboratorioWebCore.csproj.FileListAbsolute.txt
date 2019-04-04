@@ -1,0 +1,6 @@
+/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.csprojAssemblyReference.cache
+/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.csproj.CoreCompileInputs.cache
+/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.RazorAssemblyInfo.cache
+/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.RazorAssemblyInfo.cs
+/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.AssemblyInfoInputs.cache
+/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.AssemblyInfo.cs

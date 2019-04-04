@@ -12,7 +12,7 @@ namespace AtendimentoHospitalar.EntityConfig
         {
             builder.ToTable("ExamesDosAtendimentos");
             builder.HasKey(ea => ea.ExamesDoAtendimentoId);
-            builder.Property(p => p.ExamesDoAtendimentoId).HasValueGenerator(DatabaseGeneratedOption.Identity);
+            // builder.Property(p => p.ExamesDoAtendimentoId).HasValueGenerator(DatabaseGeneratedOption.Identity);
             builder.Property(ea => ea.Data)
                 .IsRequired();
             builder.Property(ea => ea.Status)

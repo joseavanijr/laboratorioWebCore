@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using AtendimentoHospitalar.Services;
+using LaboratorioWebCore.Services;
 
 namespace LaboratorioWebCore.Models
 {

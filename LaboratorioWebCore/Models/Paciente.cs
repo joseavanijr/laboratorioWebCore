@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using AtendimentoHospitalar.Services;
+using LaboratorioWebCore.Services;
 
 namespace LaboratorioWebCore.Models
 {

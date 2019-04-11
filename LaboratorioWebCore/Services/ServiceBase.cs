@@ -6,8 +6,12 @@ namespace LaboratorioWebCore.Services
 {
     public class ServiceBase<TEntity>: IDisposable where TEntity : class
     {
-        public readonly RepositoryBase<TEntity> repositoryBase = new RepositoryBase<TEntity>();
+        public readonly RepositoryBase<TEntity> repositoryBase;
 
+        public ServiceBase(RepositoryBase<TEntity> repositoryBase)
+        {
+            this.repositoryBase = repositoryBase;
+        }
         public void Save(TEntity objEntity)
         {
             repositoryBase.Add(objEntity);

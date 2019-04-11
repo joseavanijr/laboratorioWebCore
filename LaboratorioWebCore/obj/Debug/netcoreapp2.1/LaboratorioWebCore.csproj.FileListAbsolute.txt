@@ -1,32 +1,32 @@
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.csprojAssemblyReference.cache
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.csproj.CoreCompileInputs.cache
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.RazorAssemblyInfo.cache
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.RazorAssemblyInfo.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.AssemblyInfoInputs.cache
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.AssemblyInfo.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/bin/Debug/netcoreapp2.1/LaboratorioWebCore.deps.json
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/bin/Debug/netcoreapp2.1/LaboratorioWebCore.runtimeconfig.json
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/bin/Debug/netcoreapp2.1/LaboratorioWebCore.runtimeconfig.dev.json
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/bin/Debug/netcoreapp2.1/LaboratorioWebCore.dll
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/bin/Debug/netcoreapp2.1/LaboratorioWebCore.pdb
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/bin/Debug/netcoreapp2.1/LaboratorioWebCore.Views.dll
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/bin/Debug/netcoreapp2.1/LaboratorioWebCore.Views.pdb
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.TagHelpers.input.cache
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.TagHelpers.output.cache
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.RazorCoreGenerate.cache
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.RazorTargetAssemblyInfo.cache
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.RazorTargetAssemblyInfo.cs
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.Views.pdb
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.dll
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.pdb
-/home/joseavanijr/dev/cursos/laboratorioWebCore/LaboratorioWebCore/obj/Debug/netcoreapp2.1/LaboratorioWebCore.csproj.CopyComplete
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.csprojAssemblyReference.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.csproj.CoreCompileInputs.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.RazorAssemblyInfo.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.RazorAssemblyInfo.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.AssemblyInfoInputs.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.AssemblyInfo.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\bin\Debug\netcoreapp2.1\LaboratorioWebCore.deps.json
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\bin\Debug\netcoreapp2.1\LaboratorioWebCore.runtimeconfig.json
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\bin\Debug\netcoreapp2.1\LaboratorioWebCore.runtimeconfig.dev.json
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\bin\Debug\netcoreapp2.1\LaboratorioWebCore.dll
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\bin\Debug\netcoreapp2.1\LaboratorioWebCore.pdb
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\bin\Debug\netcoreapp2.1\LaboratorioWebCore.Views.dll
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\bin\Debug\netcoreapp2.1\LaboratorioWebCore.Views.pdb
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.TagHelpers.input.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.TagHelpers.output.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.RazorCoreGenerate.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.RazorTargetAssemblyInfo.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.RazorTargetAssemblyInfo.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.Views.pdb
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.dll
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.pdb
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.csproj.CopyComplete

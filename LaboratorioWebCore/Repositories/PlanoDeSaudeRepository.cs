@@ -1,15 +1,19 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-// using LaboratorioWebCore.Contexto;
+using LaboratorioWebCore.Contexto;
 using LaboratorioWebCore.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace LaboratorioWebCore.Repositories
 {
     public class PlanoDeSaudeRepository : RepositoryBase<PlanoDeSaude>
     {
         //public readonly AtendimentoHospitalarContexto Db = new AtendimentoHospitalarContexto();
+
+        public PlanoDeSaudeRepository(LaboratorioContexto Db) : base(Db)
+        {
+        }
 
         //public void Add(PlanoDeSaude obj)
         //{

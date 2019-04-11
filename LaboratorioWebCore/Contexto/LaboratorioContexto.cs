@@ -5,7 +5,7 @@ namespace LaboratorioWebCore.Contexto
 {
     public class LaboratorioContexto : DbContext
     {
-        public LaboratorioContexto(DbContextOptions<LaboratorioContexto> opcaoes): base (opcaoes)
+        public LaboratorioContexto(DbContextOptions<LaboratorioContexto> opcoes): base (opcoes)
         {
             
         }
@@ -19,8 +19,8 @@ namespace LaboratorioWebCore.Contexto
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<PlanoDeSaude> PlanosDeSaude { get; set; }
 
-        // protected override void OnModelCreating(ModelBuilder modelBuilder)
-        // {
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
             // modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             // modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
             // modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
@@ -42,6 +42,6 @@ namespace LaboratorioWebCore.Contexto
             // modelBuilder.Configurations.Add(new ExamesDoAtendimentoConfiguration());
 
             // base.OnModelCreating(modelBuilder);
-        // }
-    }
+        }
+}
 }

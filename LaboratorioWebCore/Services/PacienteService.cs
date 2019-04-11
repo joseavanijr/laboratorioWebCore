@@ -9,7 +9,11 @@ namespace LaboratorioWebCore.Services
     public class PacienteService: ServiceBase<Paciente>
     {
         // private readonly PacienteAdoRepository pacienteAdo = new PacienteAdoRepository();
-        private readonly PacienteRepository pacienteRepository = new PacienteRepository();
+        private readonly PacienteRepository pacienteRepository;
+
+        public PacienteService(RepositoryBase<Paciente> repositoryBase) : base(repositoryBase)
+        {
+        }
 
         public IEnumerable<Paciente> GetByPlano(Guid planoId)
         {    

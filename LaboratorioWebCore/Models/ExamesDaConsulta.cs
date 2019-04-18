@@ -4,10 +4,14 @@ namespace LaboratorioWebCore.Models
 {
     public class ExamesDaConsulta
     {
-        public ExamesDaConsulta(Agendamento agendamento)
+        //public ExamesDaConsulta(Agendamento agendamento)
+        //{
+        //    ExamesDaConsultaId = new Guid();
+        //    this.Agendamento = agendamento;
+        //}
+        public ExamesDaConsulta()
         {
-            ExamesDaConsultaId = new Guid();
-            this.Agendamento = agendamento;
+
         }
 
         public Guid ExamesDaConsultaId { get; set; }

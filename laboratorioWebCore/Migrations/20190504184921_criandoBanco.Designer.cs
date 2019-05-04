@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LaboratorioWebCore.Migrations
 {
     [DbContext(typeof(LaboratorioContexto))]
-    [Migration("20190418040759_carga1")]
-    partial class carga1
+    [Migration("20190504184921_criandoBanco")]
+    partial class criandoBanco
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,10 +23,11 @@ namespace LaboratorioWebCore.Migrations
 
             modelBuilder.Entity("LaboratorioWebCore.Models.Agendamento", b =>
                 {
-                    b.Property<Guid>("AgendamentoId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("AgendamentoId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<Guid>("PacienteId");
+                    b.Property<int>("PacienteId");
 
                     b.HasKey("AgendamentoId");
 
@@ -37,8 +38,9 @@ namespace LaboratorioWebCore.Migrations
 
             modelBuilder.Entity("LaboratorioWebCore.Models.Atendimento", b =>
                 {
-                    b.Property<Guid>("AtendimentoId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("AtendimentoId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("Data");
 
@@ -53,8 +55,9 @@ namespace LaboratorioWebCore.Migrations
 
             modelBuilder.Entity("LaboratorioWebCore.Models.Cidade", b =>
                 {
-                    b.Property<Guid>("CidadeId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("CidadeId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<int>("Estado");
 
@@ -67,8 +70,9 @@ namespace LaboratorioWebCore.Migrations
 
             modelBuilder.Entity("LaboratorioWebCore.Models.Exame", b =>
                 {
-                    b.Property<Guid>("ExameId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("ExameId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Descricao");
 
@@ -81,14 +85,15 @@ namespace LaboratorioWebCore.Migrations
 
             modelBuilder.Entity("LaboratorioWebCore.Models.ExamesDaConsulta", b =>
                 {
-                    b.Property<Guid>("ExamesDaConsultaId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("ExamesDaConsultaId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<Guid>("AgendamentoId");
+                    b.Property<int>("AgendamentoId");
 
                     b.Property<DateTime>("DataRealizacaoExame");
 
-                    b.Property<Guid>("ExameId");
+                    b.Property<int>("ExameId");
 
                     b.HasKey("ExamesDaConsultaId");
 
@@ -101,14 +106,15 @@ namespace LaboratorioWebCore.Migrations
 
             modelBuilder.Entity("LaboratorioWebCore.Models.ExamesDoAtendimento", b =>
                 {
-                    b.Property<Guid>("ExamesDoAtendimentoId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("ExamesDoAtendimentoId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<Guid>("AtendimentoId");
+                    b.Property<int>("AtendimentoId");
 
                     b.Property<DateTime>("Data");
 
-                    b.Property<Guid>("ExameId");
+                    b.Property<int>("ExameId");
 
                     b.Property<string>("Status");
 
@@ -123,10 +129,11 @@ namespace LaboratorioWebCore.Migrations
 
             modelBuilder.Entity("LaboratorioWebCore.Models.Paciente", b =>
                 {
-                    b.Property<Guid>("PacienteId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("PacienteId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<Guid>("CidadeId");
+                    b.Property<int>("CidadeId");
 
                     b.Property<DateTime>("DataNascimento");
 
@@ -134,7 +141,7 @@ namespace LaboratorioWebCore.Migrations
 
                     b.Property<string>("Nome");
 
-                    b.Property<Guid>("PlanoDeSaudeId");
+                    b.Property<int>("PlanoDeSaudeId");
 
                     b.HasKey("PacienteId");
 
@@ -147,8 +154,9 @@ namespace LaboratorioWebCore.Migrations
 
             modelBuilder.Entity("LaboratorioWebCore.Models.PlanoDeSaude", b =>
                 {
-                    b.Property<Guid>("PlanoDeSaudeId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("PlanoDeSaudeId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Descricao");
 

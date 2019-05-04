@@ -1,9 +1,10 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace LaboratorioWebCore.Migrations
 {
-    public partial class carga1 : Migration
+    public partial class criandoBanco : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,7 +12,8 @@ namespace LaboratorioWebCore.Migrations
                 name: "Atendimentos",
                 columns: table => new
                 {
-                    AtendimentoId = table.Column<Guid>(nullable: false),
+                    AtendimentoId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Data = table.Column<DateTime>(nullable: false),
                     Status = table.Column<string>(nullable: true),
                     ValorTotal = table.Column<decimal>(nullable: false)
@@ -25,7 +27,8 @@ namespace LaboratorioWebCore.Migrations
                 name: "Cidades",
                 columns: table => new
                 {
-                    CidadeId = table.Column<Guid>(nullable: false),
+                    CidadeId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Nome = table.Column<string>(nullable: true),
                     Estado = table.Column<int>(nullable: false)
                 },
@@ -38,7 +41,8 @@ namespace LaboratorioWebCore.Migrations
                 name: "Exames",
                 columns: table => new
                 {
-                    ExameId = table.Column<Guid>(nullable: false),
+                    ExameId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Valor = table.Column<decimal>(nullable: false),
                     Descricao = table.Column<string>(nullable: true)
                 },
@@ -51,7 +55,8 @@ namespace LaboratorioWebCore.Migrations
                 name: "PlanosDeSaude",
                 columns: table => new
                 {
-                    PlanoDeSaudeId = table.Column<Guid>(nullable: false),
+                    PlanoDeSaudeId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Descricao = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
@@ -63,11 +68,12 @@ namespace LaboratorioWebCore.Migrations
                 name: "ExamesDoAtendimento",
                 columns: table => new
                 {
-                    ExamesDoAtendimentoId = table.Column<Guid>(nullable: false),
+                    ExamesDoAtendimentoId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Status = table.Column<string>(nullable: true),
                     Data = table.Column<DateTime>(nullable: false),
-                    AtendimentoId = table.Column<Guid>(nullable: false),
-                    ExameId = table.Column<Guid>(nullable: false)
+                    AtendimentoId = table.Column<int>(nullable: false),
+                    ExameId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -90,12 +96,13 @@ namespace LaboratorioWebCore.Migrations
                 name: "Pacientes",
                 columns: table => new
                 {
-                    PacienteId = table.Column<Guid>(nullable: false),
+                    PacienteId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Nome = table.Column<string>(nullable: true),
                     DataNascimento = table.Column<DateTime>(nullable: false),
                     EnumTipoConveniado = table.Column<int>(nullable: false),
-                    PlanoDeSaudeId = table.Column<Guid>(nullable: false),
-                    CidadeId = table.Column<Guid>(nullable: false)
+                    PlanoDeSaudeId = table.Column<int>(nullable: false),
+                    CidadeId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -118,8 +125,9 @@ namespace LaboratorioWebCore.Migrations
                 name: "Agendamentos",
                 columns: table => new
                 {
-                    AgendamentoId = table.Column<Guid>(nullable: false),
-                    PacienteId = table.Column<Guid>(nullable: false)
+                    AgendamentoId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    PacienteId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -136,10 +144,11 @@ namespace LaboratorioWebCore.Migrations
                 name: "ExamesDaConsulta",
                 columns: table => new
                 {
-                    ExamesDaConsultaId = table.Column<Guid>(nullable: false),
+                    ExamesDaConsultaId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     DataRealizacaoExame = table.Column<DateTime>(nullable: false),
-                    ExameId = table.Column<Guid>(nullable: false),
-                    AgendamentoId = table.Column<Guid>(nullable: false)
+                    ExameId = table.Column<int>(nullable: false),
+                    AgendamentoId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

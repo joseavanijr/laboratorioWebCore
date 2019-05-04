@@ -8,9 +8,8 @@ namespace LaboratorioWebCore.Models
     {
         public Cidade()
         {
-            CidadeId = new Guid();
         }
-        public Guid CidadeId { get; set; }
+        public int CidadeId { get; set; }
         public string Nome { get; set; }
         public Estado Estado { get; set; }
         public virtual ICollection<Paciente> ListPacientes { get; set; }

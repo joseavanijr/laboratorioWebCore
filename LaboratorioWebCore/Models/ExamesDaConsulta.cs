@@ -14,11 +14,11 @@ namespace LaboratorioWebCore.Models
 
         }
 
-        public Guid ExamesDaConsultaId { get; set; }
+        public int ExamesDaConsultaId { get; set; }
         public DateTime DataRealizacaoExame { get; set; }
-        public Guid ExameId { get; set; }
+        public int ExameId { get; set; }
         public virtual Exame Exame { get; set; }
-        public Guid AgendamentoId { get; set; }
+        public int AgendamentoId { get; set; }
         public virtual Agendamento Agendamento { get; set; }
     }
 }

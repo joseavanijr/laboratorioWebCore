@@ -5,41 +5,17 @@ using System.Collections.Generic;
 
 namespace LaboratorioWebCore.Services
 {
-    public class PlanoDeSaudeService
+    public class PlanoDeSaudeService: ServiceBase<PlanoDeSaude>
     {
         public readonly PlanoDeSaudeRepository planoRepository;
 
-        public PlanoDeSaudeService(PlanoDeSaudeRepository pacienteRepository)
+        public PlanoDeSaudeService(PlanoDeSaudeRepository planoRepository):base(planoRepository)
         {
-            this.planoRepository = pacienteRepository;
+            this.planoRepository = planoRepository;
         }
-        public void Save(PlanoDeSaude objEntity)
+        public IEnumerable<PlanoDeSaude> GetByDescricao(string descricao)
         {
-            planoRepository.Add(objEntity);
-        }
-        public void Update(PlanoDeSaude objEntity)
-        {
-            planoRepository.Update(objEntity);
-        }
-        public void Delete(PlanoDeSaude objEntity)
-        {
-            planoRepository.Remove(objEntity);
-        }
-        public void Delete(Guid id)
-        {
-            planoRepository.Remove(id);
-        }
-        public PlanoDeSaude GetById(Guid id)
-        {
-            return planoRepository.GetById(id);
-        }
-        public IEnumerable<PlanoDeSaude> GetAll()
-        {
-            return planoRepository.GetAll();
-        }
-        public void Dispose()
-        {
-            planoRepository.Dispose();
+            return planoRepository.GetByDescricao(descricao);
         }
     }
 }

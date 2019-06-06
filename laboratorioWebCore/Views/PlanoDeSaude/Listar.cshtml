@@ -1,0 +1,41 @@
+﻿@model IEnumerable<LaboratorioWebCore.Models.PlanoDeSaude>
+
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h2>Listar</h2>
+
+<p>
+    <a asp-action="Novo" class="btn btn-success btn-lg"><i class="glyphicon glyphicon-plus"></i> Novo</a>
+</p>
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PlanoDeSaudeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlanoDeSaudeId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    <a class="btn btn-default btn-sm" href="@Url.Action("Editar", "PlanoDeSaude", new { id = item.PlanoDeSaudeId })"><i class="glyphicon glyphicon-pencil"></i></a>
+                    <a class="btn btn-default btn-sm" href="@Url.Action("Delete", "PlanoDeSaude", new { item.PlanoDeSaudeId })"><i class="glyphicon glyphicon-trash"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -3,7 +3,7 @@ using LaboratorioWebCore.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace AtendimentoHospitalar.EntityConfig
+namespace LaboratorioWebCore.EntityConfig
 {
     public class ExamesDoAtendimentoConfiguration: IEntityTypeConfiguration<ExamesDoAtendimento>
     {

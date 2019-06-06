@@ -1,3 +1,4 @@
+using LaboratorioWebCore.EntityConfig;
 using LaboratorioWebCore.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -35,13 +36,13 @@ namespace LaboratorioWebCore.Contexto
             // modelBuilder.Properties<string>()
             //     .Configure(p => p.HasMaxLength(100));
 
-            // modelBuilder.Configurations.Add(new AtendimentoConfiguration());
-            // modelBuilder.Configurations.Add(new CidadeConfiguration());
-            // modelBuilder.Configurations.Add(new PlanoDeSaudeConfiguration());
-            // modelBuilder.Configurations.Add(new PacienteConfiguration());
-            // modelBuilder.Configurations.Add(new ExamesDoAtendimentoConfiguration());
+            modelBuilder.ApplyConfiguration(new AtendimentoConfiguration());
+            modelBuilder.ApplyConfiguration(new CidadeConfiguration());
+            modelBuilder.ApplyConfiguration(new PlanoDeSaudeConfiguration());
+            modelBuilder.ApplyConfiguration(new PacienteConfiguration());
+            modelBuilder.ApplyConfiguration(new ExamesDoAtendimentoConfiguration());
 
-            // base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);
         }
 }
 }

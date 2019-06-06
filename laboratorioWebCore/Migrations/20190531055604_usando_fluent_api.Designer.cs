@@ -4,14 +4,16 @@ using LaboratorioWebCore.Contexto;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LaboratorioWebCore.Migrations
 {
     [DbContext(typeof(LaboratorioContexto))]
-    partial class LaboratorioContextoModelSnapshot : ModelSnapshot
+    [Migration("20190531055604_usando_fluent_api")]
+    partial class usando_fluent_api
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

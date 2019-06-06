@@ -37,11 +37,10 @@ namespace LaboratorioWebCore
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            //var connectionString = @"Server = (local); Integrated Security = true; Initial Catalog = bd_laboratorio";
-            //services.AddDbContext<LaboratorioContexto>(options => options.UseSqlServer(connectionString));
+            var connectionString = @"Server = (local); Integrated Security = true; Initial Catalog = bd_laboratorio_com_entityconfig";
 
-            var caminhoBanco = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory());
-            var connectionString = string.Format(@"Server=(LocalDb)\MSSQLLocalDB; Initial Catalog = bd_laboratorio; Integrated Security = SSPI; AttachDBFilename = {0}\bd_laboratorio.mdf", caminhoBanco);
+            //var caminhoBanco = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory());
+            //var connectionString = string.Format(@"Server=(LocalDb)\MSSQLLocalDB; Initial Catalog = bd_laboratorio; Integrated Security = SSPI; AttachDBFilename = {0}\bd_laboratorio.mdf", caminhoBanco);
 
             services.AddDbContext<LaboratorioContexto>(options => options.UseSqlServer(connectionString));
 

@@ -8,6 +8,7 @@ namespace LaboratorioWebCore.Models
     public class Paciente
     {
         public int PacienteId { get; set; }
+        [Required]
         public string Nome { get; set; }
         [Display(Name="Data de Nascimento")]
         public DateTime DataNascimento { get; set; }

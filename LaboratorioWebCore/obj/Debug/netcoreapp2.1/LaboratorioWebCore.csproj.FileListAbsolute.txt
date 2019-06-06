@@ -31,3 +31,6 @@ C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWe
 C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.dll
 C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.pdb
 C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.csproj.CopyComplete
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\LaboratorioWebCore.csprojAssemblyReference.cache
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Paciente\Listar.g.cshtml.cs
+C:\Users\josea\Google Drive\UNIRON\2019-1\4 - PWA\PROJETOS\MVC\2BI\LaboratorioWebCore\LaboratorioWebCore\obj\Debug\netcoreapp2.1\Razor\Views\Paciente\Novo.g.cshtml.cs

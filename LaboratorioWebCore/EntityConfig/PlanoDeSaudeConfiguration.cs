@@ -15,6 +15,7 @@ namespace LaboratorioWebCore.EntityConfig
             builder.Property(p => p.Descricao)
                 .HasMaxLength(50)
                 .IsRequired();
+            
         }
     }
 }

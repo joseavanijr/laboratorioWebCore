@@ -5,7 +5,7 @@ using LaboratorioWebCore.Contexto;
 using Microsoft.EntityFrameworkCore;
 
 namespace LaboratorioWebCore.Repositories {
-    public class RepositoryBase<TEntity> : IDisposable where TEntity : class {
+    public abstract class RepositoryBase<TEntity> : IDisposable where TEntity : class {
 
         public readonly LaboratorioContexto Db;
 
@@ -42,17 +42,10 @@ namespace LaboratorioWebCore.Repositories {
             Remove(GetById(id));
         }
 
-        public TEntity GetById (Guid id) {
-            return Db.Set<TEntity>().Find(id);
-        }
+        public abstract TEntity GetById(Guid id);
 
-        public IEnumerable<TEntity> GetAll () {
-            return Db.Set<TEntity>().ToList();
-        }
-
-        public IEnumerable<TEntity> GetAllReadOnly () {
-            return Db.Set<TEntity>().AsNoTracking();            
-        }
+        public abstract IEnumerable<TEntity> GetAll();
+        
 
         public void Dispose () {
             Db.Dispose();

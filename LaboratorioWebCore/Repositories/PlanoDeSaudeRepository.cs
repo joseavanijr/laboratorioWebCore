@@ -16,10 +16,19 @@ namespace LaboratorioWebCore.Repositories
             this.Db = Db;
         }
 
+        public override IEnumerable<PlanoDeSaude> GetAll()
+        {
+            return Db.PlanosDeSaude.ToList();
+        }
+
         public IEnumerable<PlanoDeSaude> GetByDescricao(string descricao)
         {
             return Db.PlanosDeSaude.Where(p=> p.Descricao.Contains(descricao));
         }
 
+        public override PlanoDeSaude GetById(Guid id)
+        {
+            return Db.PlanosDeSaude.FirstOrDefault(p=>p.PlanoDeSaudeId.Equals(id));
+        }
     }
 }
